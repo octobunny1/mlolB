@@ -1,0 +1,229 @@
+
+
+/* general styling */
+:root {
+    --smaller: .75;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .tym {
+    /*text-align: right;*/
+    font-family: 'Courier New', Courier, monospace;
+  }
+ .iimg{
+
+    display: block;
+    margin-left:auto;
+    margin-right: auto;    
+    width:400px;
+    height: 400px;
+    border: 3px solid rgb(21, 255, 173);   
+    border-radius: 100%;
+    opacity: 1;
+  }
+
+
+
+.t1 {
+    margin-left: 6%;
+    margin-right: 90%;   
+}
+.t2 {
+    margin-left: 50%;
+    margin-right: 40%;   
+}
+.t3 {
+    margin-left: 28%;
+}
+.t4 {
+    margin-left: 36%;
+}
+.t5 {
+    margin-left: 46%;
+}
+.eql {
+  font-family: monospace;
+  font-size: 80px;
+}
+.esc {
+  color: rgb(207, 85, 178);
+}
+
+.t6 {
+    
+    
+    margin-left: 5%;
+}
+.t7 {
+    
+  margin-left: 30%;}
+.t8 {
+  margin-left: 40%;}
+.t9 {
+  margin-left: 56%;}
+.t10 {
+  margin-left: 72%;}
+.t11 {
+    font-size: 100px;
+    
+    text-align: center;
+    border: 5%;
+    margin: 2px 3px 2px 3px;
+    padding: 8px;
+    
+}
+  
+  .container {
+    font-size: 40%;
+    color: rgb(218, 218, 218);
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 50px;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+  }
+  
+  li {
+    display: inline-block;
+    font-size: 2.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  .emoji {
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji span {
+    font-size: 4rem;
+    padding: 2 .5rem;
+  }
+  
+   
+    h1 {
+      font-size: calc(2.5rem * var(--smaller));
+      text-align: center;
+    }
+    
+    li {
+      font-size: calc(2.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(6.375rem * var(--smaller));
+    }
+  
+    #countdown {
+      background-color: #00DBDE;
+    background-color: #0d9cee;
+    background-color: #00DBDE;
+    background-color: #FC00FF;
+    background-color: #FC00FF;
+    background-color: #FC00FF;
+    background-color: #35b3ff;
+    background-color: #35b3ff;
+    background-color: #35b3ff;
+    background-color: #4158D0;
+    background-color: #C850C0;
+   background: #24C6DC; 
+  background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  
+  background: linear-gradient(to right, #514A9D, #24C6DC); 
+  opacity: 10;
+  
+    }
+  
+
+     
+body {
+  align-items: auto;
+  font-size: 50px;
+
+  /*
+  background-color: #00DBDE;
+  background-color: #0d9cee;
+  background-color: #00DBDE;
+  background-color: #FC00FF;
+  background-color: #FC00FF;
+  background-color: #FC00FF;
+  background-color: #35b3ff;
+  background-color: #35b3ff;
+  background-color: #35b3ff;
+  background-color: #4158D0;
+  background-color: #C850C0;
+ background: #24C6DC; 
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  
+background: linear-gradient(to right, #514A9D, #24C6DC); 
+*/
+                            
+background-image: url('couple.jpg');
+opacity : 0.9;
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-position: fixed;
+background-size: cover;
+
+  
+
+  display: auto;
+  font-family: Arial, Helvetica, sans-serif; 
+  
+  
+}
+#ttxt { 
+  font-size: 60px;
+  background-color: auto;
+  color: #f9f9f9;
+  height:auto;
+  width:auto;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  font-family: cursive;
+}
+.tym{
+  height:flex;
+  width:auto;
+  text-align: right;
+  color:#a4ff77;
+  border-top: 4px blue;
+}
+.t11 {
+font-family: Trebuchet MS;
+font-size: 25px;
+letter-spacing: nullpx;
+word-spacing: nullpx;
+color: rgb(253, 253, 135);
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+}
+#countdown {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
